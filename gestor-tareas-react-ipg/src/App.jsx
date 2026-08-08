@@ -23,8 +23,9 @@ function App() {
   }
 
   return ( 
-    <main>
-      <h1>Gestor de Tareas</h1>
+    <main className="min-h-screen flex flex-col items-center justify-center gap-6">
+      <h1 className= "text-4xl font-bold"     
+      >Gestor de Tareas</h1>
 
       <TaskForm agregarTarea={agregarTarea} />
       
