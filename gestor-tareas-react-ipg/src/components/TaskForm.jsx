@@ -1,15 +1,19 @@
 import { useState } from 'react'
 
-function TaskForm () {
-
+function TaskForm ({agregarTarea}) {
     const [texto, setTexto] = useState('')
-        
 
+function manejarSubmit(e) {
+    e.preventDefault()
+    agregarTarea(texto)
+    setTexto('')
+}
+        
     return (
-        <form>
+        <form onSubmit={manejarSubmit}>
             <input
                 value={texto}
-                onchange={(e) => setTexto(e.target.value)}
+                onChange={(e) => setTexto(e.target.value)}
             />
             <button>Agregar</button>
         </form>
