@@ -23,9 +23,13 @@ function App() {
   }
 
   return ( 
-    <main className="min-h-screen flex flex-col items-center justify-center gap-6">
+    <main className="min-h-screen flex flex-col items-center justify-center gap-6 bg-slate-100 px-4">
       <h1 className= "text-4xl font-bold"     
       >Gestor de Tareas</h1>
+
+      <p className="text-gray-600">
+      Tareas registradas: {tareas.length}
+      </p>
 
       <TaskForm agregarTarea={agregarTarea} />
       
