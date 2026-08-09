@@ -106,4 +106,4 @@ El contenido principal fue ubicado en el centro de la pantalla para facilitar la
 
 También se agregó un contador de tareas para que el usuario pueda conocer rápidamente cuántos elementos mantiene registrados en su lista.
 
-Se utilizaron bordes, espacios y esquinas redondeadas para mantener una presentación visual limpia y organizada.
+Se utilizaron bordes, espacios y esquinas redondeadas para mantener una presentación visual limpia y organizada..
